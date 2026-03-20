@@ -29,8 +29,8 @@ def delete_user(Email):
     conn.commit()
 
 
-st.set_page_config(page_title="AI Ticket Classification", page_icon="fevicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Welcome To AI Ticket Classification")
+st.set_page_config(page_title="AI Bug-Ticket Classification", page_icon="fevicon.png", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.title("Welcome To AI Bug-Ticket Classification")
 def set_bg_hack_url():
     '''
     A function to unpack an image from url and set as bg.
